@@ -3,23 +3,48 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_start_order">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="edu.utap.tiffstreatsrecreate.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_start_order"
+        android:name="edu.utap.tiffstreatsrecreate.ui.fragment_start_order"
+        android:label="@string/menu_start_order"
+        tools:layout="@layout/fragment_start_order" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="edu.utap.tiffstreatsrecreate.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_track_order"
+        android:name="edu.utap.tiffstreatsrecreate.ui.fragment_track_order"
+        android:label="@string/menu_track_order"
+        tools:layout="@layout/fragment_track_order" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="edu.utap.tiffstreatsrecreate.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_order_history"
+        android:name="edu.utap.tiffstreatsrecreate.ui.fragment_order_history"
+        android:label="@string/menu_order_history"
+        tools:layout="@layout/fragment_order_history" />
+
+    <fragment
+        android:id="@+id/nav_cookievision"
+        android:name="edu.utap.tiffstreatsrecreate.ui.fragment_cookievision"
+        android:label="@string/menu_cookieVision"
+        tools:layout="@layout/fragment_cookievision" />
+
+    <fragment
+        android:id="@+id/nav_stickers"
+        android:name="edu.utap.tiffstreatsrecreate.ui.fragment_stickers"
+        android:label="@string/menu_stickers"
+        tools:layout="@layout/fragment_stickers" />
+
+    <fragment
+        android:id="@+id/nav_other_gift_options"
+        android:name="edu.utap.tiffstreatsrecreate.ui.fragment_other_gift_options"
+        android:label="@string/menu_other_gift_options"
+        tools:layout="@layout/fragment_other_gift_options" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="edu.utap.tiffstreatsrecreate.ui.fragment_login"
+        android:label="fragment_nav_login"
+        tools:layout="@layout/fragment_login" />
+
 </navigation>

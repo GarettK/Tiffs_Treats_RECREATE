@@ -12,6 +12,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:textColor">#090c5d</item>
+        <item name="android:iconTint">#090c5d</item>
     </style>
 
     <style name="Theme.TiffsTreatsRECREATE.NoActionBar">
@@ -21,5 +23,5 @@
 
     <style name="Theme.TiffsTreatsRECREATE.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.TiffsTreatsRECREATE.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.TiffsTreatsRECREATE.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
